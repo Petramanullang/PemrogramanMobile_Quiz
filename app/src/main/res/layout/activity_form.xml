@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_form"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- Nama (terisi otomatis dari Activity sebelumnya) -->
+        <EditText
+            android:id="@+id/etNamaForm"
+            android:layout_width="wrap_content"
+            android:minWidth="300dp"
+            android:maxWidth="488dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="@string/hint_nama"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="wrap_content"
+            android:minWidth="300dp"
+            android:maxWidth="488dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email"
+            android:autofillHints="emailAddress" />
+
+        <!-- No HP -->
+        <EditText
+            android:id="@+id/etNoHp"
+            android:layout_width="wrap_content"
+            android:minWidth="300dp"
+            android:maxWidth="488dp"
+            android:minHeight="48dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:inputType="phone"
+            android:hint="@string/hint_no_hp"
+            android:autofillHints="phone" />
+
+        <!-- Jenis kelamin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_jenis_kelamin"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioLaki"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender_laki" />
+
+            <RadioButton
+                android:id="@+id/radioPerempuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:text="@string/gender_perempuan" />
+
+        </RadioGroup>
+
+        <!-- Hobi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_hobi"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbOlahraga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hobi_olahraga" />
+
+        <CheckBox
+            android:id="@+id/cbMembaca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hobi_membaca" />
+
+        <CheckBox
+            android:id="@+id/cbCoding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hobi_coding" />
+
+        <!-- Rating kepuasan -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/label_kepuasan"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <!-- Tombol kirim -->
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/btn_kirim" />
+
+        <Button
+            android:id="@+id/btnJadwal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_booking_jadwal" />
+
+
+    </LinearLayout>
+</ScrollView>

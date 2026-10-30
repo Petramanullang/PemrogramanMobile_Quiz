@@ -1,0 +1,9 @@
+<resources>
+    <!-- Android 12+: samakan latar splash bawaan sistem dengan splash buatan sendiri -->
+    <style name="Theme.PRAK6.Splash" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/splash_top</item>
+        <item name="android:statusBarColor">@color/splash_top</item>
+        <item name="android:navigationBarColor">@color/splash_bottom</item>
+        <item name="android:windowSplashScreenBackground">@color/splash_top</item>
+    </style>
+</resources>

@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">Jadwal Konsultasi</string>
+
+    <!-- Judul halaman -->
+    <string name="title_daftar_jadwal">Daftar Jadwal Konsultasi</string>
+    <string name="title_form">Form Registrasi</string>
+    <string name="title_booking">Booking Jadwal Konsultasi</string>
+    <string name="title_ringkasan">Ringkasan Jadwal</string>
+
+    <!-- Label -->
+    <string name="label_jenis_kelamin">Jenis Kelamin</string>
+    <string name="label_hobi">Hobi</string>
+    <string name="label_kepuasan">Tingkat Kepuasan</string>
+    <string name="label_layanan">Layanan</string>
+    <string name="label_tanggal">Tanggal</string>
+    <string name="label_waktu">Waktu</string>
+    <string name="label_masukkan_nama">Masukkan Nama Anda</string>
+
+    <!-- Hint input -->
+    <string name="hint_nama">Nama lengkap</string>
+    <string name="hint_email">Enter Email</string>
+    <string name="hint_no_hp">Enter Phone Number</string>
+
+    <!-- Pilihan jenis kelamin & hobi -->
+    <string name="gender_laki">Laki-laki</string>
+    <string name="gender_perempuan">Perempuan</string>
+    <string name="hobi_olahraga">Olahraga</string>
+    <string name="hobi_membaca">Membaca</string>
+    <string name="hobi_coding">Coding</string>
+
+    <!-- Tombol -->
+    <string name="btn_kembali">Kembali</string>
+    <string name="btn_kirim">Kirim</string>
+    <string name="btn_booking_jadwal">Lanjut: Booking Jadwal</string>
+    <string name="btn_ganti_gambar">Ganti Gambar</string>
+    <string name="btn_simpan_jadwal">Simpan Jadwal</string>
+    <string name="btn_lihat_ringkasan">Lihat Ringkasan (Explicit Intent)</string>
+    <string name="btn_tambah_kalender">Tambah ke Kalender (Implicit Intent)</string>
+    <string name="btn_lihat_daftar_jadwal">Lihat Daftar Jadwal (RecyclerView)</string>
+    <string name="btn_lanjut">Lanjut</string>
+    <string name="btn_bagikan">Bagikan Jadwal</string>
+    <string name="btn_email_admin">Kembali ke Email Admin</string>
+    <string name="btn_isi_form">Isi Form Registrasi</string>
+
+    <!-- Deskripsi gambar (aksesibilitas) -->
+    <string name="desc_gambar_profil">Gambar profil</string>
+    <string name="desc_logo_itpln">Logo Institut Teknologi PLN</string>
+    <string name="desc_hapus_jadwal">Hapus jadwal</string>
+
+    <!-- Splash screen -->
+    <string name="splash_subtitle">Praktikum Pemrograman Mobile</string>
+    <string name="splash_identitas">Petra Juliansen Manullang\n202431127</string>
+
+    <!-- Teks dinamis (dipakai dari Kotlin) -->
+    <string name="sapaan">Halo, %1$s!</string>
+    <string name="nama_tamu">Tamu</string>
+    <string name="peserta">Peserta: %1$s</string>
+    <string name="tanpa_nama">(tanpa nama)</string>
+    <string name="ringkasan_nama">Nama: %1$s</string>
+    <string name="ringkasan_layanan">Layanan: %1$s</string>
+    <string name="ringkasan_tanggal">Tanggal: %1$s</string>
+    <string name="ringkasan_waktu">Waktu: %1$s</string>
+    <string name="tanggal_waktu">%1$s  •  %2$s</string>
+
+    <string-array name="list_layanan">
+        <item>Konsultasi Akademik</item>
+        <item>Konsultasi Skripsi</item>
+        <item>Konsultasi Beasiswa</item>
+        <item>Konsultasi Karier</item>
+    </string-array>
+
+</resources>
